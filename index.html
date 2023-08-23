@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Project To-Do List</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../task 2/style.css">
 </head>
 
 <body>
@@ -23,6 +23,19 @@
             <!-- ... -->
             <button id="addTaskButton">Add Task</button>
             <!-- ... -->
+            <!-- ... -->
+           <button onclick="filterTasks()">Filter</button>
+           <!-- ... -->
+           <!-- ... -->
+           <select id="filterPriority">
+                <option value="all">All</option>
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+            </select>
+            <!-- ... -->
+
+
             
         </div>
         <ul id="tasksList">
@@ -30,7 +43,7 @@
         </ul>
     </div>
 
-    <script src="scripts.js"></script>
+    <script src="../task 2/scripts.js"></script>
 </body>
 
 </html>
