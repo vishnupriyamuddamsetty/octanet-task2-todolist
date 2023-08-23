@@ -32,3 +32,8 @@ h1 {
     padding: 10px;
     border-bottom: 1px solid #eee;
 }
+
+.overdue {
+    text-decoration: line-through;
+    color: red;
+}
